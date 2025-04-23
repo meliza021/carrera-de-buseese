@@ -1,3 +1,4 @@
+!
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrera de buses</title>
     <script type="module" src="main.js" defer></script>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <h1>Carrea de busses</h1>
- 
+    <h1 class="titulo">Carrera de busses🚌🚌</h1>
 
     <div class="buttoms">
         <button id="start">Iniciar</button>
@@ -18,9 +19,13 @@
     <div id="estado">pulsa iniciar para empezar la Carrera</div>
     
 
-    <div id="imagenes">
-        <img src="" alt="">
-        <img src="" alt="">
-    </div>
+    <<div id="pista">
+        <img id="bus1" src="./src/img/bus.png" alt="Berlinave">
+        <img id="bus2" src="./src/img/imagen.png" alt="Brasilia">
+      </div>
+      <audio id="audioStart" src="resources/carrera_de_buses.mp3"></audio>
+      <audio id="audioFinish" src="resources/small_applause.mp3"></audio>
+    
+
 </body>
 </html>

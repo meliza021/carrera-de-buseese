@@ -1,0 +1,72 @@
+@import url(vary.css);
+
+body {
+    font-family: "primero";
+    text-align: center;
+    margin: 1rem;
+  }
+
+
+.titulo{
+    font-size: 75px;
+}
+
+#start{
+    background-color: pink;
+    border: none;
+    border-radius: 8px;
+    width: 150px;
+    height: 50px;
+    font-family: "primero";
+
+}
+#reset{
+    background-color: pink;
+    border: none;
+    border-radius: 8px;
+    width: 150px;
+    height: 50px;
+    font-family: "primero";
+}
+.buttoms {
+    gap: 20px;
+    animation: botones 2s ease infinite;
+}
+
+@keyframes botones {
+    0%, 50%, 100% { transform: translateY(0); }
+    25%, 75% { transform: translateY(-8px); }
+}
+#pista img {
+    margin-top: 20px;
+    position: absolute;
+    height: auto;
+    
+
+
+  }
+  #bus1  {
+    right: 1040px;
+    top: 380px;
+    width: 160px;
+  }
+  #bus2 {
+    right: 1070px;
+    top: 20px;
+    width: 130px;
+  }
+  #estado {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  #pista {
+    position: relative;
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    border: 2px solid pink;
+    background: rgb(228, 184, 191);
+    overflow: hidden;
+  }
